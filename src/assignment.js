@@ -56,7 +56,6 @@ function countEvenNumbers (array){
 
     return count;
 }
-
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
