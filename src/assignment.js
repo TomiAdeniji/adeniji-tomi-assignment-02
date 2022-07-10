@@ -13,16 +13,15 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
-function sumOfNumbers(array){
+function sumOfNumbers(arrayOfNumbers){
     // set sum to 0
     let sum = 0;
-
     // iterate through array to add all the numbers
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < arrayOfNumbers.length; i++) {
 
         // check if array is empty
-        if (array[i] != "" && array[i] != []){
-            sum += array[i];    
+        if (arrayOfNumbers[i] != "" && arrayOfNumbers[i] != []){
+            sum += arrayOfNumbers[i];    
         }
     }
 
@@ -40,16 +39,16 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-function countEvenNumbers (array){
+function countEvenNumbers (arrayOfNumbers){
 
     // set count to 0
     let count = 0;
 
     // iterate through array to count the number of even numbers 
-    for (let n = 0; n < array.length; n++) {
+    for (let n = 0; n < arrayOfNumbers.length; n++) {
 
         // to check if array contains even numbers or is empty
-        if (array[n] % 2 === 0){
+        if (arrayOfNumbers[n] % 2 === 0){
             count ++;
         }
     }
