@@ -24,7 +24,6 @@ function sumOfNumbers(arrayOfNumbers){
             sum += arrayOfNumbers[i];    
         }
     }
-
     return sum
 
 }
